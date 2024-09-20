@@ -2,11 +2,11 @@
     "configurations": [
       {
         "name": "Mac",
-        "includePath": [
+        "includePath": [  //指向你的项目头文件路径
           "${workspaceFolder}/**", 
           // "/usr/local/llvmbuild/**"
          // "/Users/steng/compiler/mlir/llvm-project/llvm/**"
-          "/usr/local/Cellar/llvm/17.0.5/include/**"
+          "/usr/local/Cellar/llvm/18.1.7/include/**"
         
       ],
         "defines": [],
@@ -15,7 +15,7 @@
         ],
         "compilerPath": "/usr/bin/clang++",
         "cStandard": "c11",
-        "cppStandard": "c++17",
+        "cppStandard": "c++20",
         "intelliSenseMode": "clang-x64"
       }
     ],

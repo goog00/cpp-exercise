@@ -1,6 +1,6 @@
 {
     "editor.fontSize": 15,
-    "explorer.confirmDelete": true,
+    "explorer.confirmDelete": false,
     "window.zoomLevel": 0,
     "C_Cpp.clang_format_fallbackStyle": "LLVM",
     //允许在json中添加注释

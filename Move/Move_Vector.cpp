@@ -7,9 +7,6 @@
 
 int main() {
 
-    
-
-
     //在容器中使用 std::move
     //std::move 常用于将对象移动到容器中，以避免不必要的拷贝。
     //例如，在向 std::vector 添加元素时使用 std::move 可以提高效率：

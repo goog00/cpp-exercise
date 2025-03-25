@@ -81,7 +81,7 @@ void gemv_avx(float alpha, const std::vector<float>& A, const std::vector<float>
 }
 
 // 汇编接口：声明外部汇编函数
-// 注意：符号名去掉下划线，适配你的 Apple Clang 环境
+// 注意：符号名去掉下划线，汇编文件中定义的是_gemv_kernel  适配你的 Apple Clang 环境
 extern "C" void gemv_kernel(float* A, float* x, float* y, int m, int n, float alpha, float beta);
 
 // 汇编实现包装函数

@@ -3,9 +3,9 @@
 ; 计算 y = alpha * A * x + beta * y
 
 section .text
-global gemv_kernel  ; 全局符号，供 C++ 调用（无下划线，适配 Apple Clang）
+global _gemv_kernel  ; 全局符号，供 C++ 调用（无下划线，适配 Apple Clang）
 
-gemv_kernel:
+_gemv_kernel:
     ; 函数参数 (macOS x86-64 ABI):
     ; rdi: A (float*) - 矩阵 A 的首地址
     ; rsi: x (float*) - 输入向量 x 的首地址

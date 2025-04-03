@@ -2,38 +2,56 @@
 *.d
 
 # Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+**/*.slo
+**/*.lo
+**/*.o
+**/*.obj
 
 # Precompiled Headers
-*.gch
-*.pch
+**/*.gch
+**/*.pch
 
 # Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
+**/*.so
+**/*.dylib
+**/*.dll
 
 # Fortran module files
-*.mod
-*.smod
+**/*.mod
+**/*.smod
 
 # Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
+**/*.lai
+**/*.la
+**/*.a
+**/*.lib
 
 # Executables
-*.exe
-*.out
-*.app
+**/*.exe
+**/*.out
+**/*.app
 
-#folder
-build/*
+# Build directories
+build/**
+cmake-build-*/
 
-#other
-*.dSYM
-*.~
+# Debug symbols
+**/*.dSYM/
+
+# Temporary and hidden files
+*~
+*.swp
+*.swo
+.DS_Store
+
+# Xcode and CLion specific
+*.xcodeproj/
+DerivedData/
+.clion/
+CMakeFiles/
+
+# Other possible artifacts
+**/*.ii
+**/*.s
+**/*.pdb
+**/*.ilk

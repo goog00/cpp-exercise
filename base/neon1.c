@@ -14,5 +14,7 @@ float dot_product_float(float* a, float* b) {
     float result = vaddvq_f32(prod);  // result = prod[0] + prod[1] + prod[2] + prod[3]
 
     return result;
+
+    
 }
 

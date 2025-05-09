@@ -43,6 +43,7 @@ cmake-build-*/
 *.swp
 *.swo
 .DS_Store
+**/*/.DS_Store
 
 # Xcode and CLion specific
 *.xcodeproj/
